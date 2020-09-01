@@ -33,10 +33,10 @@ namespace HotelReservations
         public static void SetBooking(int bookingNumber, List<Booking> bookings)
         {
             Console.WriteLine($"Booking {bookingNumber}");
-            Console.WriteLine("Set booking start date (must be a number 1-365): ");
+            Console.WriteLine("Set booking start date (must be a number 0-365): ");
             int startDate = Convert.ToInt32(Console.ReadLine());
 
-            Console.WriteLine("Set booking end date (must be a number 1-365): ");
+            Console.WriteLine("Set booking end date (must be a number 0-365): ");
             int endDate = Convert.ToInt32(Console.ReadLine());
 
             Booking b = new Booking { Start = startDate, End = endDate };
@@ -56,40 +56,48 @@ namespace HotelReservations
 
             Console.WriteLine("\nTESTS FINISHED.");
 
-            Console.WriteLine("\nSet your size of hotel (must be a number):");
+            Console.WriteLine("\nSet your size of hotel (must be a positive number 1-1000):");
             size = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("Size=" + size);
-            
-            h = new Hotel(size);
-            bookings = new List<Booking>();
 
-            int bookingNumber = 0;
-            bool isBooking = true;
-            while (isBooking)
+            if (size >= 0)
             {
-                Console.WriteLine("\nDo you want to add a booking?");
-                Console.WriteLine("y - YES, n - NO");
-                string answer = Console.ReadLine();
+                h = new Hotel(size);
+                bookings = new List<Booking>();
 
-                if (answer == "y")
+                int bookingNumber = 0;
+                bool isBooking = true;
+                while (isBooking)
                 {
-                    isBooking = true;
-                    bookingNumber++;
-                    SetBooking(bookingNumber, bookings);
+                    Console.WriteLine("\nDo you want to add a booking?");
+                    Console.WriteLine("y - YES, n - NO");
+                    string answer = Console.ReadLine();
+
+                    if (answer == "y")
+                    {
+                        isBooking = true;
+                        bookingNumber++;
+                        SetBooking(bookingNumber, bookings);
+                    }
+                    else
+                    {
+                        isBooking = false;
+                    }
                 }
-                else
+
+                if (bookings.Count > 0)
                 {
-                    isBooking = false;
+                    Console.WriteLine("\nBOOKINGS AVAILABILITY STARTED...");
+                    CheckAvailability(h, size, bookings);
                 }
+
+                Console.WriteLine("\nBOOKINGS FINISHED.");
             }
-
-            if (bookings.Count > 0)
+            else
             {
-                Console.WriteLine("\nBOOKINGS AVAILABILITY STARTED...");
-                CheckAvailability(h, size, bookings);
+                Console.WriteLine("Size shouldn't be negative. Run program again!");
             }
-
-            Console.WriteLine("\nBOOKINGS FINISHED.");
+          
         }
 
     }

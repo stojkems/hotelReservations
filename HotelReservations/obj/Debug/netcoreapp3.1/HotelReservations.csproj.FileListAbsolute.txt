@@ -11,3 +11,16 @@ C:\Users\mstojiljkovic\Source\Repos\HotelReservations\HotelReservations\obj\Debu
 C:\Users\mstojiljkovic\Source\Repos\HotelReservations\HotelReservations\obj\Debug\netcoreapp3.1\HotelReservations.dll
 C:\Users\mstojiljkovic\Source\Repos\HotelReservations\HotelReservations\obj\Debug\netcoreapp3.1\HotelReservations.pdb
 C:\Users\mstojiljkovic\Source\Repos\HotelReservations\HotelReservations\obj\Debug\netcoreapp3.1\HotelReservations.genruntimeconfig.cache
+C:\2\hotelReservations\HotelReservations\bin\Debug\netcoreapp3.1\HotelReservations.exe
+C:\2\hotelReservations\HotelReservations\bin\Debug\netcoreapp3.1\HotelReservations.deps.json
+C:\2\hotelReservations\HotelReservations\bin\Debug\netcoreapp3.1\HotelReservations.runtimeconfig.json
+C:\2\hotelReservations\HotelReservations\bin\Debug\netcoreapp3.1\HotelReservations.runtimeconfig.dev.json
+C:\2\hotelReservations\HotelReservations\bin\Debug\netcoreapp3.1\HotelReservations.dll
+C:\2\hotelReservations\HotelReservations\bin\Debug\netcoreapp3.1\HotelReservations.pdb
+C:\2\hotelReservations\HotelReservations\obj\Debug\netcoreapp3.1\HotelReservations.csprojAssemblyReference.cache
+C:\2\hotelReservations\HotelReservations\obj\Debug\netcoreapp3.1\HotelReservations.AssemblyInfoInputs.cache
+C:\2\hotelReservations\HotelReservations\obj\Debug\netcoreapp3.1\HotelReservations.AssemblyInfo.cs
+C:\2\hotelReservations\HotelReservations\obj\Debug\netcoreapp3.1\HotelReservations.csproj.CoreCompileInputs.cache
+C:\2\hotelReservations\HotelReservations\obj\Debug\netcoreapp3.1\HotelReservations.dll
+C:\2\hotelReservations\HotelReservations\obj\Debug\netcoreapp3.1\HotelReservations.pdb
+C:\2\hotelReservations\HotelReservations\obj\Debug\netcoreapp3.1\HotelReservations.genruntimeconfig.cache

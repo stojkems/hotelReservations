@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mstojiljkovic\\Source\\Repos\\HotelReservations\\HotelReservations\\HotelReservations.csproj": {}
+    "C:\\2\\hotelReservations\\HotelReservations\\HotelReservations.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mstojiljkovic\\Source\\Repos\\HotelReservations\\HotelReservations\\HotelReservations.csproj": {
+    "C:\\2\\hotelReservations\\HotelReservations\\HotelReservations.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mstojiljkovic\\Source\\Repos\\HotelReservations\\HotelReservations\\HotelReservations.csproj",
+        "projectUniqueName": "C:\\2\\hotelReservations\\HotelReservations\\HotelReservations.csproj",
         "projectName": "HotelReservations",
-        "projectPath": "C:\\Users\\mstojiljkovic\\Source\\Repos\\HotelReservations\\HotelReservations\\HotelReservations.csproj",
+        "projectPath": "C:\\2\\hotelReservations\\HotelReservations\\HotelReservations.csproj",
         "packagesPath": "C:\\Users\\mstojiljkovic\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mstojiljkovic\\Source\\Repos\\HotelReservations\\HotelReservations\\obj\\",
+        "outputPath": "C:\\2\\hotelReservations\\HotelReservations\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
